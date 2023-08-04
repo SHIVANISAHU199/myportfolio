@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(9, 25, 88, 0.873);
+    color: black;
+    font-family: cursive;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(15, 34, 61);
+}
+
+.head {
+    color: aquamarine;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(97, 9, 92);
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    background: black;
+    height: 1.2px;
+    margin: 60px 84pxx;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2rem;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+.purple {
+    color: rgba(113, 219, 243, 0.934);
+}
+
+#element {
+    color: rgba(113, 219, 243, 0.934);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    font-weight: normal;
+}
+
+
+/* aboutmr */
+
+.pink {
+    color: rgba(214, 70, 94, 0.936);
+    font-weight: normal;
+}
+
+.aboutleftsection img {
+    width: 200px;
+    margin-left: 70px 0;
+    border-radius: 50%;
+}
+
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.secondsection>div {
+    width: 30%
+}
+
+.intro {
+    font-size: 1.2rem;
+    color: rgb(97, 222, 239);
+}
+
+.aboutrightsection p {
+    font-size: 1.4rem;
+}
+
+.about a img {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(4, 3, 3);
+    transition: all 0.3s ease;
+}
+
+.about a:hover {
+    color: blue;
+    background: none;
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.red {
+    color: violet;
+    font-weight: normal;
+}
+
+.know {
+    text-align: center;
+    color: aqua;
+}
+
+.thirdsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.thirdsection>div {
+    width: 30%;
+}
+
+.heading {
+    margin-left: 100px;
+    font-size: 1.5rem;
+}
+
+.yellow {
+    color: aqua;
+}
+
+.para {
+    margin-left: 100px;
+}
+
+.right {
+    margin-left: 100px;
+    color: plum
+}
+
+.bars {
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.forthsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.con {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.white {
+    color: plum;
+}
+
+#five {
+    color: powderblue;
+    text-align: center;
+}
+
+.forthsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.forthsection>div {
+    width: 30%;
+}
+
+.forthsection .right form .fields {
+    display: flex;
+}
+
+.forthsection .right form .field,
+.forthsection .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.forthsection .right form .textarea {
+    height: 80px;
+    width: 100%;
+}
+
+.forthsection .right form .name {
+    margin-right: 10px;
+}
+
+.forthsection .right form .field input,
+.forthsection .right form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.forthsection .right form .field input:focus,
+.forthsection .right form .textarea textarea:focus {
+    border-color: #b3b3b3;
+}
+
+.forthsection .right form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.forthsection .right form .button-area {
+    display: flex;
+    align-items: center;
+}
+
+.right form .button-area button {
+    color: #fff;
+    display: block;
+    width: 160px!important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: blue;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+
+.right form .button-area button:hover {
+    color: blue;
+    background: none;
+}
